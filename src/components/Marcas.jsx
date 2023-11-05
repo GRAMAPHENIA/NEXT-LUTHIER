@@ -1,23 +1,25 @@
 import Image from "next/image";
-import Figure from "@/components/Figure.jsx";
 
 export default function Marcas() {
   return (
-    <section className="grid grid-cols-5 px-2 w-full gap-2 text-center">
+    <section className="grid grid-cols-3 lg:grid-cols-6 px-2 w-full gap-2 text-center">
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full">
-        <Figure />
+        <p>Diliberto</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full">
-        <Figure />
+        <p>Goto</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full">
-        <Figure />
+        <p>Wilkinson</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full">
-        <Figure />
+        <p>Hosco</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full">
-        <Figure />
+        <p>Cts</p>
+      </div>
+      <div className="flex justify-center p-4 bg-[#14181b] rounded-full">
+        <p>Dimarcio</p>
       </div>
     </section>
   );
