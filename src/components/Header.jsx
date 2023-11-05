@@ -13,7 +13,7 @@ export default function Header() {
           className="p-1 text-center"
           src={Pua}
           alt="Pua de guitarra"
-          width="30"
+          width="40"
           height="auto"
         />
       </figure>
