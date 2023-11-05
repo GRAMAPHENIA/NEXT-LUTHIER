@@ -7,34 +7,34 @@ import Email from "../../public/email.svg";
 
 export default function Header() {
   return (
-    <header className="grid grid-cols-4 bg-[#14181b] p-4 rounded-full items-center w-full">
-      <h1 className="">
+    <header className="grid grid-cols-4 justify-center align-middle bg-[#14181b] p-3 rounded-full">
+      <figure>
         <Image
-          className="text-center"
+          className="p-1 text-center"
           src={Pua}
           alt="Pua de guitarra"
           width="30"
-          height="30"
+          height="auto"
         />
-      </h1>
-      <div className="flex col-start-4 col-end-5 justify-end gap-4">
+      </figure>
+      <div className="flex col-start-4 col-end-5 justify-end gap-6">
         <Image
           className="text-center"
           src={Instagram}
           alt="logo de instagram"
-          width="30"
-          height="30"
+          width="35"
+          height="auto"
         />
         <Image
-          width="30"
-          height="30"
+          width="35"
+          height="auto"
           className="text-center"
           src={Youtube}
           alt="logo de youtube"
         />
         <Image
-          width="30"
-          height="30"
+          width="35"
+          height="auto"
           className="text-center"
           src={Email}
           alt="logo de email"
