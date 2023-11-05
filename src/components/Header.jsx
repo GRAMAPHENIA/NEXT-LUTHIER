@@ -17,14 +17,10 @@ export default function Header() {
           height="auto"
         />
       </figure>
-      <div className="flex col-start-4 col-end-5 justify-end gap-6">
-        <Image
-          className="text-center"
-          src={Instagram}
-          alt="logo de instagram"
-          width="35"
-          height="auto"
-        />
+      <div className="flex align-middle col-start-4 col-end-5 justify-end gap-4 mr-4">
+        {/* <p>instrumentos</p>
+        <p>nosotros</p>
+        <p>contacto</p> */}
         <Image
           width="35"
           height="auto"
@@ -33,8 +29,15 @@ export default function Header() {
           alt="logo de youtube"
         />
         <Image
+          className="text-center"
+          src={Instagram}
+          alt="logo de instagram"
           width="35"
           height="auto"
+        />
+        <Image
+          width="30"
+          height="30"
           className="text-center"
           src={Email}
           alt="logo de email"
