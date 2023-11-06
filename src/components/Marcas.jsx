@@ -4,22 +4,22 @@ export default function Marcas() {
   return (
     <section className="grid grid-cols-3 lg:grid-cols-6 w-full gap-2 text-center">
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#20262b]">
-        <p>Diliberto</p>
+        <p>Inicio</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#20262b]">
-        <p>Goto</p>
+        <p>Instrumentos</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#20262b]">
-        <p>Wilkinson</p>
+        <p>Restauración</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#20262b]">
-        <p>Hosco</p>
+        <p>Nosotros</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#20262b]">
-        <p>Cts</p>
+        <p>Reparaciones</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#20262b]">
-        <p>Dimarcio</p>
+        <p>Contactos</p>
       </div>
     </section>
   );
