@@ -10,12 +10,12 @@ export default function Presentacion() {
         tacto moderno y una amplia variedad de configuraciones.
         <br /> <br />
         <span className="text-[#7d8c9d]">
-          Para músicos de diferentes estilos tanto clásicos como así también
+          Para músicos de diferentes estilos, tanto clásicos como así también
           contemporáneos.
         </span>
         <br /> <br />
-        La versión Nativa está construida con la mejor selección de maderas
-        regionales, obteniendo así audios distintos y novedosos.
+        La versión Nativa, está construida con la mejor selección de maderas
+        regionales, poseyendo así audios distintos y novedosos.
       </p>
 
       <section className="flex justify-between p-3 bg-[#0e1012] rounded-xl gap-2 ">
