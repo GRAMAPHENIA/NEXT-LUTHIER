@@ -13,7 +13,7 @@ export default function Header() {
           className="ml-1 rotate-45 text-center"
           src={Pua}
           alt="Pua de guitarra"
-          width="40"
+          width="30"
           height="auto"
         />
       </figure>
