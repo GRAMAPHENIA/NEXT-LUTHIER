@@ -1,34 +1,22 @@
 import Image from "next/image";
 import Logo from "../../public/info.svg";
 
-export default function Presentacion() {
+export default function PresentacionBuconero() {
   return (
     <>
-      <h1 className="ml-5 lg:ml-9 text-5xl">MODELO BUCONERO NATIVA</h1>
-      <p className="text-3xl font-light font-sans text-white mb-5 sm:text-2xl lg:text-3xl p-6 lg:p-10">
-        A partir de la superstrat, conservando todas sus características, con un
-        tacto moderno y una amplia variedad de configuraciones.
-        <br /> <br />
-        <span className="text-[#7d8c9d]">
-          Para músicos de diferentes estilos, tanto clásicos como así también
-          contemporáneos.
-        </span>
-        <br /> <br />
+      <p className="text-3xl font-light font-sans text-[#7d8c9d] mb-5 sm:text-2xl lg:text-5xl p-6 lg:p-10">
+        <span className="text-white">Buconero nativa</span> se construye a
+        partir de la superstrat, conservando todas sus características, con un
+        tacto moderno y una amplia variedad de configuraciones.{" "}
+        <span className="text-white">
+          Para músicos de estilos clásicos o contemporáneos.
+        </span>{" "}
         La versión Nativa, está construida con la mejor selección de maderas
         regionales, poseyendo así audios distintos y novedosos.
       </p>
 
-      <section className="flex justify-between p-3 bg-[#0e1012] rounded-xl gap-2 ">
-        <p className="flex justify-center align-middle p-2 rounded-lg hover:bg-[#20262b] hover:cursor-pointer">
-          Más info
-        </p>
-        <Image
-          className="text-[#e1bb49]"
-          src={Logo}
-          alt="Fotografia de la guitarra electrica Buconero"
-          width="40"
-          height="auto"
-        />
+      <section className="flex w-[50px] justify-center p-3 bg-[#0e1012] hover:bg-[#20262b] rounded-xl gap-2 ">
+        <Image src={Logo} alt="logo" width="40" height="auto" />
       </section>
     </>
   );
