@@ -14,8 +14,7 @@ export default function Home() {
       <Marcas />
       {/* <HeaderGuitarras /> */}
       <BodyBuconero />
-      
-      <Body />
+      {/* <Body /> */}
       {/* <HeaderReparacion /> */}
     </main>
   );
