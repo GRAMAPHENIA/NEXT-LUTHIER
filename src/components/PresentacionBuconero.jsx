@@ -9,7 +9,7 @@ export default function PresentacionBuconero() {
         partir de la superstrat, conservando todas sus características, con un
         tacto moderno y una amplia variedad de configuraciones.{" "} */}
         <span className="text-white">
-          Para músicos de estilo clásico o contemporáneo.
+          Galeria para músicos de estilo clásico o contemporáneo.
         </span>{" "}
         {/* La versión Nativa, está construida con la mejor selección de maderas
         regionales, poseyendo así audios distintos y novedosos. */}
