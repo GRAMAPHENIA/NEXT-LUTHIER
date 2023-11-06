@@ -16,7 +16,7 @@ export default function Marcas() {
         <p>Nosotros</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#20262b]">
-        <p>Reparaciones</p>
+        <p>Taller</p>
       </div>
       <div className="flex justify-center p-4 bg-[#14181b] rounded-full hover:bg-[#20262b]">
         <p>Contactos</p>
