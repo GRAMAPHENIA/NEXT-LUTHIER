@@ -7,7 +7,7 @@ import Email from "../../public/email.svg";
 
 export default function HeaderGuitarras() {
   return (
-    <header className="grid grid-cols-4 justify-center align-middle bg-[#14181b] p-3 rounded-full">
+    <header className="grid mt-2 grid-cols-4 justify-center align-middle bg-[#14181b] p-3 rounded-full">
       <p className="pl-2">INSTRUMENTOS</p>
       <div className="flex align-middle col-start-4 col-end-5 justify-end gap-4 mr-4">
         <p className="flex align-middle">Galeria »</p>
