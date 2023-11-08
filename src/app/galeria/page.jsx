@@ -27,7 +27,7 @@ export default function Galeria() {
         </figure>
       </section>
 
-      <section className=" gap-2 grid grid-rows-3 grid-cols-3 lg:mx-4 lg:grid-cols-4 ">
+      <section className=" gap-2 grid grid-rows-3 grid-cols-3 lg:grid-cols-4 ">
         <figure className="p-4 row-start-1 row-end-6 col-start-1 col-end-2 lg:row-start-1 lg:row-end-4 lg:col-start-1 lg:col-end-2 bg-[#14181b] rounded-2xl">
           A
         </figure>
@@ -41,7 +41,7 @@ export default function Galeria() {
         </figure>
       </section>
 
-      <section className="mt-2 gap-2 grid grid-rows-1 grid-cols-3 lg:mx-4 lg:grid-cols-4 ">
+      <section className="mt-2 gap-2 grid grid-rows-1 grid-cols-3 lg:grid-cols-4 ">
         <figure className="p-4 row-start-1 row-end-2 col-start-1 col-end-2 lg:row-start-1 lg:row-end-2 lg:col-start-1 lg:col-end-2 bg-[#14181b] rounded-2xl">
           A
         </figure>
