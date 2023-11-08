@@ -1,9 +1,8 @@
-import Aside from "@/components/Aside.jsx";
-import Presentacion from "@/components/Presentacion.jsx";
+
 
 export default function Galeria() {
   return (
-    <section className="m-6 lg:m-20 grid grid-rows-6 grid-cols-2 lg:grid-cols-4 gap-2">
+    <section className="m-4 lg:m-15 grid grid-rows-6 grid-cols-2 lg:grid-cols-4 gap-2">
       <figure className="p-4 row-start-1 row-end-3 col-start-1 col-end-3 lg:row-start-1 lg:row-end-4 lg:col-start-1 lg:col-end-2 bg-[#14181b] rounded-2xl">
         1
       </figure>
