@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Galeria() {
   return (
-    <section className="px-4 lg:px-24 py-5">
+    <section className="px-4 lg:px-24 pt-2">
       <article className=" mb-2 gap-2 grid grid-rows-6 grid-cols-2 lg:mx-15 lg:grid-cols-4 ">
         <figure className=" p-4 row-start-1 row-end-3 col-start-1 col-end-3 lg:row-start-1 lg:row-end-4 lg:col-start-1 lg:col-end-2 bg-[#14181b] rounded-2xl">
           <Link
